@@ -1,18 +1,26 @@
-## Getting Started
+Banco Interativo - Projeto Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+-Descrição
 
-## Folder Structure
+Este projeto é uma simulação de um sistema bancário simples utilizando Programação Orientada a Objetos (POO) em Java.
+O sistema permite a criação de contas, depósitos, saques, transferências entre contas e consulta de saldo, de forma interativa via console.
 
-The workspace contains two folders by default, where:
+-O projeto contempla dois tipos de contas:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Conta Corrente
+Conta Poupança
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+-Funcionalidades
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Depositar valores em uma conta
+Sacar valores de uma conta
+Transferir valores entre contas do banco
+Consultar saldo das contas
+Menu interativo para o usuário realizar operações
 
-## Dependency Management
+-Estrutura do Projeto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Conta.java: classe abstrata que define atributos e métodos comuns a todas as contas
+ContaCorrente.java: classe que herda de Conta, representando uma conta corrente
+ContaPoupanca.java: classe que herda de Conta, representando uma conta poupança
+Banco.java: classe principal com menu interativo para o usuário realizar operações
